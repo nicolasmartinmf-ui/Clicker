@@ -10,10 +10,10 @@ function App() {
 
   const manageClick = () => {
       setNumClicks(numClicks + 1);
-  }
+  };
   const manageReset = () => {
       setNumClicks(0);
-  }
+  };
   return (
     <div className="App">
         <div className="shop-logo-container">
